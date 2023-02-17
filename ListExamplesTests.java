@@ -9,7 +9,7 @@ public class ListExamplesTests {
 	public void testMerge1() {
     		List<String> l1 = new ArrayList<String>(List.of("x", "y"));
 		List<String> l2 = new ArrayList<String>(List.of("a", "b"));
-		assertArrayEquals(new String[]{ "x", "y", "a", "b"}, ListExamples.merge(l1, l2).toArray());
+		assertArrayEquals(new String[]{ "a", "b", "x", "y"}, ListExamples.merge(l1, l2).toArray());
 	}
 	
 	@Test
