@@ -38,7 +38,7 @@ class ListExamples {
       result.add(list1.get(index1));
       index1 += 1;
     }
-    //buggy updated
+    //buggy updated version codes 2/26 17:34
     while(index2 < list2.size()) {
       result.add(list2.get(index2));
       index2 += 1; 
